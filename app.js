@@ -6,7 +6,7 @@ var time =prompt('enter the time  in Turkey');
 //document.write('<p>' + best_city + '</p>');
 var message;
 if(time < 12){
-    message = 'amm';
+    message = 'am';
 }else{
     message = 'pm';
 }

@@ -13,7 +13,7 @@
 //alert(message);
 
 var userName = prompt('Enter your name ');
-console.log(userName);
+console.log(userName)
 
 while(userName === ''){
     userName = prompt('enter your name');
@@ -27,3 +27,4 @@ var endN = prompt('enter the end number you want to repit image');
 for(var i = startN;i<= endN; i++){
     document.write(i + '<img src="Turkey.jpg">' );
 }
+

@@ -25,8 +25,9 @@ console.log(userName);
 var startN = prompt('enter the  start  number you want  to repit image');
 var endN = prompt('enter the end number you want to repit image');
 for(var i = startN;i<= endN; i++){
-    document.write('<p'+ i + '</p>');
 
-    document.write(i + '<img src="Turkey.jpg">' );
+    document.write('<p>'+ i + '</p><br>');
+
+    document.write(  '<img src="Turkey.jpg">' );
 }
 

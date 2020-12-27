@@ -1,0 +1,11 @@
+.header-list{
+    display: inline-block;
+    border: 3px solid crimson;
+    padding: 3px;
+    margin: 7px;
+}
+
+ul{
+    text-align: center;
+    background-color: deeppink;
+}
